@@ -25,3 +25,22 @@ pip install -r requirements.txt
 ```
 
 Now run `jupyter notebook`, find `data_manipulation.ipynb` and run it.
+
+
+### Windows
+
+To create the python virtual environment, open your command prompt window and run:
+
+```
+mkdir %USERPROFILE%\.mcoe_c_venv && cd %USERPROFILE%\.mcoe_c_venv
+python -m venv mcoe_challenge
+```
+
+Now clone this repository and open a terminal in it. Activate the previously created environment and install the required packages with:
+
+```
+%USERPROFILE%\.mcoe_c_venv\mcoe_challenge\Scripts\activate.bat
+pip install -r requirements.txt
+```
+
+Now run `jupyter-notebook`, find `data_manipulation.ipynb` and run it.
